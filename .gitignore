@@ -1,0 +1,6 @@
+__pycache__/*
+trading_strategies/__pycache__/*
+config.json
+pending_orders.json
+logs/*
+run_dca.sh

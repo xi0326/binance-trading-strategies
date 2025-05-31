@@ -1,0 +1,22 @@
+{
+    "api_key": "",
+    "api_secret": "",
+    "base_token": "USDT",
+    "dca_amount": 50,
+    "quote_token": "BNB",
+    "offset": 50,
+    "max_price": 1000,
+    "log_dir": "./logs",
+    "pending_order_file": "pending_orders.json",
+    "enable_revoke_stale_order": true,
+    "enable_email": false,
+
+    "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 465,
+    "sender": "",
+    "app_password": "",
+    "receiver": "",
+    "subject": "Binance Automated Trading Result"
+  }
+}
