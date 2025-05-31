@@ -60,15 +60,15 @@ python <the absolutely path>/main.py
 {
     "api_key": "",
     "api_secret": "",
-    "base_token": "USDT", // the base token name 
-    "dca_amount": 50,   // the amount of the token redeeming from the flexible earning product
-    "quote_token": "BNB",  // the quote token name
-    "offset": 50,   // the offset
-    "max_price": 1000,  //
+    "base_token": "USDT",
+    "dca_amount": 50,
+    "quote_token": "BNB",
+    "offset": 50,
+    "max_price": 1000,
     "log_dir": "./logs",
     "pending_order_file": "pending_orders.json",
-    "enable_revoke_stale_order": true,  // cancel the staled order
-    "enable_email": false,  // send the task log to a specified email address
+    "enable_revoke_stale_order": true,
+    "enable_email": false,
 
     "email": {
     "smtp_server": "smtp.gmail.com",
